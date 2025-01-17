@@ -58,35 +58,10 @@ Ensure you have the following installed:
    ```
 2. Place high-dimensional fMRI images in `actual_images` and the reduced images in `reduced_images`.
 
-### Running the Autoencoder
-
-1. Train the autoencoder:
-   ```bash
-   python train.py --data_dir data/ --epochs <num_epochs> --batch_size <batch_size>
-   ```
-2. Evaluate the model:
-   ```bash
-   python evaluate.py --model_path models/autoencoder_segmented.pth --data_dir data/
-   ```
 
 ### Results
 
 Training and evaluation outputs, including loss curves and reconstructed images, will be saved in the `results/` directory.
-
-## Project Structure
-
-```
-fmri-autoencoder/
-├── data/                   # Dataset directory
-├── models/                 # Saved models
-├── results/                # Evaluation and visualization outputs
-├── train.py                # Training script
-├── evaluate.py             # Evaluation script
-├── autoencoder.py          # Model definition (including segmented decoder)
-├── utils.py                # Helper functions
-├── requirements.txt        # Python dependencies
-└── README.md               # Project documentation
-```
 
 ## Future Work
 
@@ -96,8 +71,6 @@ fmri-autoencoder/
 
 ## Contributors
 
-- **Velan** - Initial design and implementation.
+- **Velan** - Partial design and implementation.
 
-## License
 
-This project is licensed under the MIT License. See `LICENSE` for details.
