@@ -33,20 +33,6 @@ Ensure you have the following installed:
 - Matplotlib
 - Other dependencies in `requirements.txt`
 
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd fmri-autoencoder
-   ```
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ### Dataset Preparation
 
